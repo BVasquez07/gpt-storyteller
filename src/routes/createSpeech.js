@@ -5,6 +5,7 @@ const projectId = process.env.PROJ_ID;
 
 const client = new txtToSpeech.TextToSpeechClient({ projectId })
 
+// TODO: make it so that when the file is created it is immediately played.
 
 const speak = async () => {
     const text = "Hello, my name is Brandon Vasquez! It's a pleasure to meet you."
