@@ -95,6 +95,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Node][Node.com]][Node-url]
 * [![Pug][Pug.com]][Pug-url]
+* [![GPT 3.5][openai.com]][openai-url]
+* [![Google Cloud][googleCloud.com]][googleCloud.url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,3 +231,7 @@ Project Link: [https://github.com/BVasquez07/gpt-storyteller](https://github.com
 [Node-url]:https://nodejs.org/docs/latest/api/
 [Pug.com]: https://img.shields.io/badge/Pug-red?style=for-the-badge
 [Pug-url]: https://pugjs.org/api/getting-started.html
+[openai.com]: https://img.shields.io/badge/GPT%203.5-light%20green?style=for-the-badge
+[openai-url]: https://platform.openai.com/docs/introduction
+[googleCloud.com]: https://img.shields.io/badge/Google%20Cloud-blue?style=for-the-badge
+[googleCloud-url]: https://cloud.google.com/docs
