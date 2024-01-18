@@ -94,7 +94,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [![Node][Node.com]][Node-url]
-* [![Pug][Pug.js]][Pug-url]
+* [![Pug][Pug.com]][Pug-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
