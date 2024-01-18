@@ -3,22 +3,20 @@ const txtToSpeech = require('@google-cloud/text-to-speech');
 require('dotenv').config();
 const projectId = process.env.PROJ_ID;
 const client = new txtToSpeech.TextToSpeechClient({ projectId });
-const express = require("express");
-const router = express.Router();
+
 
 // TODO: make it so that when the file is created it is immediately played.
 
-const speak = async () => {
-    const text = "Hello, my name is Brandon it's a pleasure to meet you. May I know your name stranger?"
+const speak = async (userText) => {
+    const ssml = `<speak>${userText}</speak>`
     const speechReqBody = {
         input: {
-            text: text
+            ssml: ssml
         },
         voice: {
             languageCode: 'en-US', 
-            name: "en-US-Journey-F",
+            //name: "en-US-Journey-F",
             ssmlGender: "FEMALE",
-            naturalSampleRateHertz: 24000
         },
         audioConfig: {
             audioEncoding: 'MP3',
@@ -42,4 +40,4 @@ const speak = async () => {
     });
 }
 
-speak()
+module.exports = speak
