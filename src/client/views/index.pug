@@ -1,0 +1,12 @@
+html
+    head
+        title= title
+    body
+        h1= message
+        form(method="get" action=promptRoute)
+            center
+                label(for='query') Enter a prompt:
+                textarea#query(type='text' name='query')
+                br
+                br
+                button(type="submit") ask
